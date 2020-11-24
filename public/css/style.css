@@ -15,6 +15,8 @@ body {
 	background-color: #6a1b9a;
 	color: #FFF;
 	font-family: 'Roboto',sans-serif;
+	flex-direction: column;
+	align-items: center;
 }
 
 a, a:visited{
@@ -28,11 +30,29 @@ aside{
 aside p{
 	text-align: justify;
 }
+#login {
+	display: flex;
+	flex-direction: column;
+}
+#login label{
+	margin-bottom: 10px;
+}
+#login label input{
+	font-size: 1rem;
+	padding: 5px;
+
+}
+#login button{
+	font-size: 1rem;
+	border: none;
+	padding: 12px;
+}
 
 main {
 	background-color: #9c4dcc;
 	padding: 20px;
-	width: 400px;;
+	width: 400px;
+	display: none;
 }
 
 form{
